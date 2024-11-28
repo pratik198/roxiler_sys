@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://roxiler-sys-4.onrender.com";
+const API_URL = "https://roxiler-sys-4.onrender.com/api";
 
 export const initializeDatabase = () => axios.get(`${API_URL}/initialize`);
 
